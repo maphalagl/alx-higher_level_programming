@@ -5,5 +5,3 @@ def print_last_digit(number):
     else:
         number = abs(number) % 10
         return number * -1
-
-print(print_last_digit(35))
